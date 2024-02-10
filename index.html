@@ -1,874 +1,817 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>PortFolio</title>
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="./style.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-    <body>
+<body>
 
-        <!-- Start Of Navbar -->
+    <!-- Start Of Navbar -->
 
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-                <div class="container ">
-                    <a class="navbar-brand text-white fw-bold fs-5" href="#">DevShafa|ullah</a>
-                    <button class="rounded navbar-toggler" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse"
-                        id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 ">
-                            <li class="nav-item">
-                                <div
-                                    class="d-flex align-items-center justify-content-center p-2  gap-1">
-                                    <img src="./img/home.png" alt height="20px"
-                                        width="20px">
-                                    <a
-                                        class="nav-link text-white fw-medium font "
-                                        href="#">HOME</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div
-                                    class="d-flex align-items-center justify-content-center p-2 gap-1">
-                                    <img src="./img/profile.png" alt
-                                        height="20px" width="20px">
-                                    <a
-                                        class="nav-link text-white fw-medium font "
-                                        href="#">ABOUT</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div
-                                    class="d-flex align-items-center justify-content-center p-2  gap-1">
-                                    <img src="./img/smart-tv.png" alt
-                                        height="20px" width="20px">
-                                    <a
-                                        class="nav-link text-white fw-medium font "
-                                        href="#">PROJECT</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div
-                                    class="d-flex align-items-center justify-content-center p-2  gap-1">
-                                    <img src="./img/market-fluctuation.png" alt
-                                        height="20px" width="20px">
-                                    <a
-                                        class="nav-link text-white fw-medium font "
-                                        href="#">RESUME</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div
-                                    class="d-flex align-items-center justify-content-center p-2">
-                                    <img src="./img/telephone.png" alt
-                                        height="20px" width="20px">
-                                    <a
-                                        class="nav-link text-white fw-medium font "
-                                        href="#">CONTACT</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>
-
-        <!-- End Of Navbar -->
-
-        <!-- Start Of Header -->
-
-        <section id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-lg-6">
-                        <div class="text-white">
-                            <h2 class="mb-5">Hi There!</h2>
-                            <h1 style="font-size: 50px;">I'M SHAFAULLAH</h1>
-                            <div class="d-flex align-items-center mt-5">
-                                <h6 class="text-white mb-0 fw-bolder">
-                                    Are You Ready To Build</h6>
-                                <div id="typewriter" class="ms-1"
-                                    style="font-size: 15px;"></div>
+    <section>
+        <nav class="navbar navbar-expand-lg   fixed-top " id="mynav">
+            <div class="container  ">
+                <a id="navColor" class="navbar-brand  fw-bold fs-5" href="#">YourName</a>
+                <button class="rounded navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 ">
+                        <li class="nav-item">
+                            <div class="d-flex align-items-center justify-content-center p-2  gap-1">
+                                <i class="bi bi-house-door"></i>
+                                <a id="navColor" class="nav-link fw-medium font " href="#">HOME</a>
                             </div>
-                            <div>
-                                <div id="typewriter1" class="fw-bold">
-
-                                </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-flex align-items-center justify-content-center p-2 gap-1">
+                                <i class="bi bi-file-person"></i>
+                                <a id="navColor" class="nav-link  fw-medium font " href="#">ABOUT</a>
                             </div>
-                            <div class="border mt-5 d-flex gap-2 p-2 inp"
-                                style="border-radius: 50px; overflow: hidden;">
-                                <div
-                                    class="d-flex align-items-center  gap-2 p-2 icon"
-                                    style="border-radius: 50px; cursor: pointer;">
-                                    <div
-                                        class="img1 d-flex align-items-center gap-1"><a
-                                            href="#"><img
-                                                src="./img/github.png" alt
-                                                height="30px" width="30px"></a>
-                                        <h5 class="fw-bold mb-0 git">GitHub</h5>
-                                    </div>
-                                </div>
-                                <div
-                                    class="d-flex align-items-center  gap-2 p-2 icon"
-                                    style="border-radius: 50px; cursor: pointer;">
-                                    <div
-                                        class="img1 d-flex align-items-center gap-1"><a
-                                            href="#"><img
-                                                src="./img/linkedin.png" alt
-                                                height="30px" width="30px"></a>
-                                        <h5 class="fw-bold mb-0 git">Linkedin</h5>
-                                    </div>
-                                </div>
-                                <div
-                                    class="d-flex align-items-center  gap-2 p-2 icon"
-                                    style="border-radius: 50px; cursor: pointer;">
-                                    <div
-                                        class="img1 d-flex align-items-center gap-1"><a
-                                            href="#"><img
-                                                src="./img/facebook.png" alt
-                                                height="30px" width="30px"></a>
-                                        <h5 class="fw-bold mb-0 git">Facebook</h5>
-                                    </div>
-                                </div>
-                                <div
-                                    class="d-flex align-items-center  gap-2 p-2 icon"
-                                    style="border-radius: 50px; cursor: pointer;">
-                                    <div
-                                        class="img1 d-flex align-items-center gap-1"><a
-                                            href="#"><img
-                                                src="./img/twitter.png" alt
-                                                height="30px" width="30px"></a>
-                                        <h5 class="fw-bold mb-0 git">Twitter</h5>
-                                    </div>
-                                </div>
-                                <div
-                                    class="d-flex align-items-center  gap-2 p-2 icon"
-                                    style="border-radius: 50px; cursor: pointer;">
-                                    <div
-                                        class="img1 d-flex align-items-center gap-1"><a
-                                            href="#"><img
-                                                src="./img/instagram.png" alt
-                                                height="30px" width="30px"></a>
-                                        <h5 class="fw-bold mb-0 git">Instagram</h5>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-flex align-items-center justify-content-center p-2  gap-1">
+                                <i class="bi bi-cast"></i>
+                                <a id="navColor" class="nav-link fw-medium font " href="#">PROJECT</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-lg-6  col-xl-6 col-xxl-6">
-                        <img src="./img/vec-d.webp" alt class="img-fluid">
-                    </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-flex align-items-center justify-content-center p-2  gap-1">
+                                <i class="bi bi-file-earmark-person"></i>
+                                <a id="navColor" class="nav-link   fw-medium font " href="#">RESUME</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-flex align-items-center justify-content-center p-2">
+                                <i class="bi bi-person-rolodex"></i>
+                                <a id="navColor" class="nav-link fw-medium font " href="#">CONTACT</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </nav>
+    </section>
 
-        <!-- End Of Header -->
+    <!-- End Of Navbar -->
 
-        <!-- Start Of About -->
+    <!-- Start Of Header -->
 
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h2 class="text-white fw-bold "
-                            style="border-bottom: 2px solid #22C55E; display: inline-block;">About
-                            Me</h2>
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-lg-6 text-center">
-                        <img src="./img/prr.avif" class="img-fluid" alt
-                            style="margin-top: 40px;">
-                    </div>
-                    <div class="col-12 col-sm-12 col-lg-6">
-                        <div>
-                            <h1 class="text-white mt-5 fw-bold"> Hi There! I'm
-                                Shahzad Ali</h1>
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <div class="text-white">
+                        <h2 class="mb-5">Hi There!</h2>
+                        <h1 style="font-size: 50px;">I'M xyz</h1>
+                        <div class="d-flex align-items-center mt-5">
+                            <h6 class="text-white mb-0 fw-bolder">
+                                Are You Ready To Build</h6>
+                            <div id="typewriter" class="ms-1" style="font-size: 15px;"></div>
                         </div>
                         <div>
-                            <h2 style="color: #22C55E;" class="mt-3">Web
-                                Developer</h2>
+                            <div id="typewriter1" class="fw-bold">
+
+                            </div>
+                        </div>
+                        <div class="border mt-5 d-flex gap-2 p-2 inp" style="border-radius: 50px; overflow: hidden;">
+                            <div class="d-flex align-items-center  gap-2 p-2 icon"
+                                style="border-radius: 50px; cursor: pointer;">
+                                <div class="img1 d-flex align-items-center gap-1"><a href="#"><img
+                                            src="./img/github.png" alt height="30px" width="30px"></a>
+                                    <h5 class="fw-bold mb-0 git">GitHub</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center  gap-2 p-2 icon"
+                                style="border-radius: 50px; cursor: pointer;">
+                                <div class="img1 d-flex align-items-center gap-1"><a href="#"><img
+                                            src="./img/linkedin.png" alt height="30px" width="30px"></a>
+                                    <h5 class="fw-bold mb-0 git">Linkedin</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center  gap-2 p-2 icon"
+                                style="border-radius: 50px; cursor: pointer;">
+                                <div class="img1 d-flex align-items-center gap-1"><a href="#"><img
+                                            src="./img/facebook.png" alt height="30px" width="30px"></a>
+                                    <h5 class="fw-bold mb-0 git">Facebook</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center  gap-2 p-2 icon"
+                                style="border-radius: 50px; cursor: pointer;">
+                                <div class="img1 d-flex align-items-center gap-1"><a href="#"><img
+                                            src="./img/twitter.png" alt height="30px" width="30px"></a>
+                                    <h5 class="fw-bold mb-0 git">Twitter</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center  gap-2 p-2 icon"
+                                style="border-radius: 50px; cursor: pointer;">
+                                <div class="img1 d-flex align-items-center gap-1"><a href="#"><img
+                                            src="./img/instagram.png" alt height="30px" width="30px"></a>
+                                    <h5 class="fw-bold mb-0 git">Instagram</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6  col-xl-6 col-xxl-6">
+                    <img src="./img/vec-d.webp" alt class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Of Header -->
+
+    <!-- Start Of About -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white fw-bold " style="border-bottom: 2px solid #22C55E; display: inline-block;">
+                        About Me</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div data-aos="fade-right" class="col-12 col-sm-12 col-lg-6 text-center">
+                    <img src="./img/prr.avif" class="img-fluid" alt style="margin-top: 40px;">
+                </div>
+                <div data-aos="fade-up" class="col-12 col-sm-12 col-lg-6">
+                    <div>
+                        <h1 class="text-white mt-5 fw-bold"> Hi There! I'm
+                            ShafaUllah Malik</h1>
+                    </div>
+                    <div>
+                        <h2 style="color: #22C55E;" class="mt-3">Web
+                            Developer</h2>
+                    </div>
+                    <div>
+                        <p class="mt-4" style="color: #939AA7; font-size: 20px;">I am a
+                            skilled Web Developer with a passion for
+                            crafting seamless web experiences. Proficient in
+                            HTML, CSS, JavaScript, and React, I create
+                            responsive and user-friendly web applications.
+                            My goal is to provide innovative solutions that
+                            engage users and enhance their online
+                            interactions.</p>
+                    </div>
+                    <div class="d-flex gap-4 mt-4">
+                        <div>
+                            <h4 class="fw-bold" style="color: #939AA7;">Birthday:</h4>
                         </div>
                         <div>
-                            <p class="mt-4"
-                                style="color: #939AA7; font-size: 20px;">I am a
-                                skilled Web Developer with a passion for
-                                crafting seamless web experiences. Proficient in
-                                HTML, CSS, JavaScript, and React, I create
-                                responsive and user-friendly web applications.
-                                My goal is to provide innovative solutions that
-                                engage users and enhance their online
-                                interactions.</p>
-                        </div>
-                        <div class="d-flex gap-4 mt-4">
-                            <div><h4 class="fw-bold" style="color: #939AA7;">Birthday:</h4></div>
-                            <div><h4 style="color: #939AA7;">Jun 20, 1998</h4></div>
-                        </div>
-                        <div class="d-flex gap-4 mt-2">
-                            <div><h5 class="fw-bold" style="color: #939AA7;">Phone:</h5></div>
-                            <div><h5 style="color: #939AA7;">+92 304 0 000 000</h5></div>
-                        </div>
-                        <div class="d-flex gap-4 mt-2">
-                            <div><h5 class="fw-bold" style="color: #939AA7;">Email:</h5></div>
-                            <div><h5 style="color: #939AA7;">abc3@gmail.com</h5></div>
-                        </div>
-                        <div class="d-flex gap-4 mt-2">
-                            <div><h5 class="fw-bold" style="color: #939AA7;">From:</h5></div>
-                            <div><h5 style="color: #939AA7;">Pakistan</h5></div>
-                        </div>
-                        <div class="d-flex gap-4 mt-2">
-                            <div><h5 class="fw-bold" style="color: #939AA7;">Language:</h5></div>
-                            <div><h5 style="color: #939AA7;">Urdu, English</h5></div>
-                        </div>
-                        <div class="d-flex gap-4 mt-2">
-                            <div><h5 class="fw-bold" style="color: #939AA7;">Freelancer:</h5></div>
-                            <div><h5 style="color: #939AA7;">Availble</h5></div>
-                        </div>
-                        <div class="mt-4">
-                            <button class="btn text-black fw-bold"
-                                style="border-radius: 50px; padding: 10px 15px; background-color: #22C55E; color: #112A46;"><a
-                                    href="#"
-                                    style="text-decoration: none;  color: #112A46;">Download
-                                    CV</a></button>
+                            <h4 style="color: #939AA7;">Jun 20, 1998</h4>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- End Of About -->
-
-        <!-- Start Of Services -->
-
-        <section id="services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h2 class="text-white fw-bold fs-1"
-                            style="border-bottom: 2px solid #22C55E; display: inline-block;">Services
-                        </h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 col-lg-6 col-xl-4 text-white mt-4">
-                        <div class="card rounded-0 p-4 clr-1"
-                            style="background-color: #1E293B; border: 1px solid white;">
-                            <div
-                                class="card-body d-flex flex-column align-items-center">
-                                <div
-                                    style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
-                                    class="d-flex justify-content-center align-items-center">
-                                    <img src="./img/www.png" alt height="60px"
-                                        width="60px">
-                                </div>
-                                <h4
-                                    class="card-title text-center text-white mt-3"
-                                    style="font-size: 20px;">Web Development</h4>
-                                <p class="card-text text-center mt-4 clr-2"
-                                    style="color: #9CA3AF;">I specialize in
-                                    creating responsive and user-friendly web
-                                    applications using technologies such as
-                                    HTML, CSS, JavaScript, React, and more.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-6  col-xl-4  text-white mt-4">
-                        <div class="card rounded-0 p-4 clr-1"
-                            style="background-color: #1E293B; border: 1px solid white;">
-                            <div
-                                class="card-body d-flex flex-column align-items-center">
-                                <div
-                                    style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
-                                    class="d-flex justify-content-center align-items-center">
-                                    <img src="./img/smartphone.png" alt
-                                        height="60px"
-                                        width="60px">
-                                </div>
-                                <h4
-                                    class="card-title text-center text-white mt-3"
-                                    style="font-size: 20px;">Web Development</h4>
-                                <p class="card-text text-center mt-4 clr-2"
-                                    style="color: #9CA3AF;">I specialize in
-                                    creating responsive and user-friendly web
-                                    applications using technologies such as
-                                    HTML, CSS, JavaScript, React, and more.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-6  col-xl-4  text-white mt-4">
-                        <div class="card rounded-0 p-4 clr-1"
-                            style="background-color: #1E293B; border: 1px solid white;">
-                            <div
-                                class="card-body d-flex flex-column align-items-center">
-                                <div
-                                    style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
-                                    class="d-flex justify-content-center align-items-center">
-                                    <img src="./img/user-experience.png" alt
-                                        height="60px"
-                                        width="60px">
-                                </div>
-                                <h4
-                                    class="card-title text-center text-white mt-3"
-                                    style="font-size: 20px;">Web Development</h4>
-                                <p class="card-text text-center mt-4 clr-2"
-                                    style="color: #9CA3AF;">I specialize in
-                                    creating responsive and user-friendly web
-                                    applications using technologies such as
-                                    HTML, CSS, JavaScript, React, and more.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 col-lg-6  col-xl-4  text-white mt-4">
-                        <div class="card rounded-0 p-4 clr-1"
-                            style="background-color: #1E293B; border: 1px solid white;">
-                            <div
-                                class="card-body d-flex flex-column align-items-center">
-                                <div
-                                    style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
-                                    class="d-flex justify-content-center align-items-center">
-                                    <img src="./img/smart-tv.png" alt
-                                        height="60px"
-                                        width="60px">
-                                </div>
-                                <h4
-                                    class="card-title text-center text-white mt-3"
-                                    style="font-size: 20px;">Web Development</h4>
-                                <p class="card-text text-center mt-4 clr-2"
-                                    style="color: #9CA3AF;">I specialize in
-                                    creating responsive and user-friendly web
-                                    applications using technologies such as
-                                    HTML, CSS, JavaScript, React, and more.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-6  col-xl-4  text-white mt-4">
-                        <div class="card rounded-0 p-4 clr-1"
-                            style="background-color: #1E293B; border: 1px solid white;">
-                            <div
-                                class="card-body d-flex flex-column align-items-center">
-                                <div
-                                    style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
-                                    class="d-flex justify-content-center align-items-center">
-                                    <img src="./img/atom.png" alt height="60px"
-                                        width="60px">
-                                </div>
-                                <h4
-                                    class="card-title text-center text-white mt-3"
-                                    style="font-size: 20px;">Web Development</h4>
-                                <p class="card-text text-center mt-4 clr-2"
-                                    style="color: #9CA3AF;">I specialize in
-                                    creating responsive and user-friendly web
-                                    applications using technologies such as
-                                    HTML, CSS, JavaScript, React, and more.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-sm-12 col-lg-6  col-xl-4     text-white mt-4">
-                        <div class="card rounded-0 p-4 clr-1"
-                            style="background-color: #1E293B; border: 1px solid white;">
-                            <div
-                                class="card-body d-flex flex-column align-items-center">
-                                <div
-                                    style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
-                                    class="d-flex justify-content-center align-items-center">
-                                    <img src="./img/programing.png" alt
-                                        height="60px"
-                                        width="60px">
-                                </div>
-                                <h4
-                                    class="card-title text-center text-white mt-3"
-                                    style="font-size: 20px;">Web Development</h4>
-                                <p class="card-text text-center mt-4 clr-2"
-                                    style="color: #9CA3AF;">I specialize in
-                                    creating responsive and user-friendly web
-                                    applications using technologies such as
-                                    HTML, CSS, JavaScript, React, and more.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- End Of Services -->
-
-        <!-- Start of skills -->
-
-        <section id="skills">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h2 class="text-white fw-bold "
-                            style="border-bottom: 2px solid #22C55E; display: inline-block;">Skills
-                        </h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div
-                        class="col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 text-center">
-                        <img src="./img/prr.avif" alt
-                            class="img-fluid mt-4 mt-sm-5">
-                    </div>
-                    <div
-                        class="col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 ps-5 pt-5 mt-4 mt-sm-0">
-                        <div
-                            style="width: 100%; height: 550px; border-left: 5px solid #22C55E;"
-                            class="text-center">
-                            <div class="d-flex gap-3 align-items-center">
-                                <div
-                                    style="margin-left: -32px; margin-top: 40px;">
-                                    <span class="text-white text-center"
-                                        style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
-                                </div>
-                                <div class="progress"
-                                    style="width: 70%; margin-top: 40px;"
-                                    role="progressbar"
-                                    aria-label="Basic example" aria-valuenow="0"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar"
-                                        style="width: 80% ; background-color: #22C55E;"></div>
-                                </div>
-                            </div>
-
-                            <div class="d-flex gap-3 align-items-center mt-4">
-                                <div
-                                    style="margin-left: -32px; margin-top: 40px;">
-                                    <span class="text-white text-center"
-                                        style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
-                                </div>
-                                <div class="progress"
-                                    style="width: 70%; margin-top: 40px;"
-                                    role="progressbar"
-                                    aria-label="Basic example" aria-valuenow="0"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar"
-                                        style="width: 80% ; background-color: #22C55E;"></div>
-                                </div>
-                            </div>
-
-                            <div class="d-flex gap-3 align-items-center mt-4">
-                                <div
-                                    style="margin-left: -32px; margin-top: 40px;">
-                                    <span class="text-white text-center"
-                                        style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
-                                </div>
-                                <div class="progress"
-                                    style="width: 70%; margin-top: 40px;"
-                                    role="progressbar"
-                                    aria-label="Basic example" aria-valuenow="0"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar"
-                                        style="width: 80% ; background-color: #22C55E;"></div>
-                                </div>
-                            </div>
-
-                            <div class="d-flex gap-3 align-items-center mt-4">
-                                <div
-                                    style="margin-left: -32px; margin-top: 40px;">
-                                    <span class="text-white text-center"
-                                        style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
-                                </div>
-                                <div class="progress"
-                                    style="width: 70%; margin-top: 40px;"
-                                    role="progressbar"
-                                    aria-label="Basic example" aria-valuenow="0"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar"
-                                        style="width: 80% ; background-color: #22C55E;"></div>
-                                </div>
-                            </div>
-
-                            <div class="d-flex gap-3 align-items-center mt-4">
-                                <div
-                                    style="margin-left: -32px; margin-top: 40px;">
-                                    <span class="text-white text-center"
-                                        style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
-                                </div>
-                                <div class="progress"
-                                    style="width: 70%; margin-top: 40px;"
-                                    role="progressbar"
-                                    aria-label="Basic example" aria-valuenow="0"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar"
-                                        style="width: 80% ; background-color: #22C55E;"></div>
-                                </div>
-                            </div>
-
-                            <div class="d-flex gap-3 align-items-center mt-4">
-                                <div
-                                    style="margin-left: -32px; margin-top: 40px;">
-                                    <span class="text-white text-center"
-                                        style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
-                                </div>
-                                <div class="progress"
-                                    style="width: 70%; margin-top: 40px;"
-                                    role="progressbar"
-                                    aria-label="Basic example" aria-valuenow="0"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar"
-                                        style="width: 80% ; background-color: #22C55E;"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- End of skills -->
-
-        <!-- start of portfolio -->
-
-        <section id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h2 class="text-white fw-bold "
-                            style="border-bottom: 2px solid #22C55E; display: inline-block;">PortFolio
-                        </h2>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div
-                        class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 text-white mb-3">
-                        <div class="border p-3">
-                            <div>
-                                <iframe class="vid"
-                                    src="https://www.youtube.com/embed/daJSVmO2RVA?si=aN184nYhVdv9F4Ts"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="mt-3">Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Voluptates
-                                nesciunt a quia qui eos sint minus debitis
-                                quidem accusamus voluptatibus error eaque, unde
-                                mollitia eligendi odit tempora, et quaerat?
-                                Eveniet sint corporis soluta maxime
-                                reprehenderit adipisci alias fugiat est
-                                dignissimos doloremque? Alias nostrum
-                                accusantium iste eveniet quas libero doloremque
-                                modi reiciendis tempora optio placeat ipsum
-                                minima quam, voluptate odit cupiditate repellat
-                                porro, architecto est recusandae, deleniti sint
-                                atque! Quod aliquid iusto soluta animi, quasi
-                                reprehenderit explicabo tempore. Dolores illo
-                                aperiam, adipisci omnis a quod voluptatum
-                                dolorum maxime iusto vitae sed ipsa pariatur
-                                velit sunt sit ullam cupiditate deleniti unde
-                                facere eos reprehenderit eius nobis ab?
-                                Molestiae commodi ex porro laborum ipsa. Ipsa
-                                dolorem libero quaerat a, nesciunt porro dolores
-                                adipisci.</div>
-                            <div
-                                class="mt-3 py-3 d-flex gap-3 justify-content-center">
-                                <button
-                                    class="btn btn-success fw-bold pf-btn-hov"
-                                    style="background-color: #22C55E !important; color: black;">Github</button>
-                                <button
-                                    class="btn btn-success fw-bold  pf-btn-hov"
-                                    style="background-color: #22C55E !important; color: black;">Demo</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 text-white">
-                        <div class="border p-3">
-                            <div>
-                                <iframe class="vid"
-                                    src="https://www.youtube.com/embed/daJSVmO2RVA?si=aN184nYhVdv9F4Ts"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="mt-3">Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Voluptates
-                                nesciunt a quia qui eos sint minus debitis
-                                quidem accusamus voluptatibus error eaque, unde
-                                mollitia eligendi odit tempora, et quaerat?
-                                Eveniet sint corporis soluta maxime
-                                reprehenderit adipisci alias fugiat est
-                                dignissimos doloremque? Alias nostrum
-                                accusantium iste eveniet quas libero doloremque
-                                modi reiciendis tempora optio placeat ipsum
-                                minima quam, voluptate odit cupiditate repellat
-                                porro, architecto est recusandae, deleniti sint
-                                atque! Quod aliquid iusto soluta animi, quasi
-                                reprehenderit explicabo tempore. Dolores illo
-                                aperiam, adipisci omnis a quod voluptatum
-                                dolorum maxime iusto vitae sed ipsa pariatur
-                                velit sunt sit ullam cupiditate deleniti unde
-                                facere eos reprehenderit eius nobis ab?
-                                Molestiae commodi ex porro laborum ipsa. Ipsa
-                                dolorem libero quaerat a, nesciunt porro dolores
-                                adipisci.</div>
-                            <div
-                                class="mt-3 py-3 d-flex gap-3 justify-content-center">
-                                <button
-                                    class="btn btn-success fw-bold  pf-btn-hov"
-                                    style="background-color: #22C55E !important; color: black;">Github</button>
-                                <button
-                                    class="btn btn-success fw-bold  pf-btn-hov"
-                                    style="background-color: #22C55E !important; color: black;">Demo</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div
-                        class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 text-white mb-3">
-                        <div class="border p-3">
-                            <div>
-                                <iframe class="vid"
-                                    src="https://www.youtube.com/embed/daJSVmO2RVA?si=aN184nYhVdv9F4Ts"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="mt-3">Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Voluptates
-                                nesciunt a quia qui eos sint minus debitis
-                                quidem accusamus voluptatibus error eaque, unde
-                                mollitia eligendi odit tempora, et quaerat?
-                                Eveniet sint corporis soluta maxime
-                                reprehenderit adipisci alias fugiat est
-                                dignissimos doloremque? Alias nostrum
-                                accusantium iste eveniet quas libero doloremque
-                                modi reiciendis tempora optio placeat ipsum
-                                minima quam, voluptate odit cupiditate repellat
-                                porro, architecto est recusandae, deleniti sint
-                                atque! Quod aliquid iusto soluta animi, quasi
-                                reprehenderit explicabo tempore. Dolores illo
-                                aperiam, adipisci omnis a quod voluptatum
-                                dolorum maxime iusto vitae sed ipsa pariatur
-                                velit sunt sit ullam cupiditate deleniti unde
-                                facere eos reprehenderit eius nobis ab?
-                                Molestiae commodi ex porro laborum ipsa. Ipsa
-                                dolorem libero quaerat a, nesciunt porro dolores
-                                adipisci.</div>
-                            <div
-                                class="mt-3 py-3 d-flex gap-3 justify-content-center">
-                                <button
-                                    class="btn btn-success fw-bold  pf-btn-hov "
-                                    style="background-color: #22C55E !important; color: black;">Github</button>
-                                <button
-                                    class="btn btn-success fw-bold  pf-btn-hov"
-                                    style="background-color: #22C55E !important; color: black;">Demo</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 text-white">
-                        <div class="border p-3">
-                            <div>
-                                <iframe class="vid"
-                                    src="https://www.youtube.com/embed/daJSVmO2RVA?si=aN184nYhVdv9F4Ts"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="mt-3">Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Voluptates
-                                nesciunt a quia qui eos sint minus debitis
-                                quidem accusamus voluptatibus error eaque, unde
-                                mollitia eligendi odit tempora, et quaerat?
-                                Eveniet sint corporis soluta maxime
-                                reprehenderit adipisci alias fugiat est
-                                dignissimos doloremque? Alias nostrum
-                                accusantium iste eveniet quas libero doloremque
-                                modi reiciendis tempora optio placeat ipsum
-                                minima quam, voluptate odit cupiditate repellat
-                                porro, architecto est recusandae, deleniti sint
-                                atque! Quod aliquid iusto soluta animi, quasi
-                                reprehenderit explicabo tempore. Dolores illo
-                                aperiam, adipisci omnis a quod voluptatum
-                                dolorum maxime iusto vitae sed ipsa pariatur
-                                velit sunt sit ullam cupiditate deleniti unde
-                                facere eos reprehenderit eius nobis ab?
-                                Molestiae commodi ex porro laborum ipsa. Ipsa
-                                dolorem libero quaerat a, nesciunt porro dolores
-                                adipisci.</div>
-                            <div
-                                class="mt-3 py-3 d-flex gap-3 justify-content-center">
-                                <button
-                                    class="btn btn-success fw-bold pf-btn-hov"
-                                    style="background-color: #22C55E !important; color: black;">Github</button>
-                                <button
-                                    class="btn btn-success fw-bold pf-btn-hov"
-                                    style="background-color: #22C55E !important; color: black;">Demo</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- End of portfolio -->
-
-        <!-- start of contact -->
-
-        <section id="contect">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 ">
-                        <h2 class="text-white fw-lighter "
-                            style="border-bottom: 2px solid #fff;">CONTACT US
-                        </h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="d-flex gap-4 mt-2">
                         <div>
-                            <div><h5 class="text-white mt-4">Fill out the
-                                    contact form and shahzad will contact you
-                                    directly.</h5></div>
+                            <h5 class="fw-bold" style="color: #939AA7;">Phone:</h5>
                         </div>
-                        <div class="mt-4">
-                            <input class="w-100 border inpu"
-                                style="background-color: #1E293B;" type="text"
-                                placeholder="NAME*">
-                        </div>
-                        <div class="mt-4">
-                            <input class="w-100 border inpu"
-                                style="background-color: #1E293B;" type="email"
-                                placeholder="EMAIL*">
-                        </div>
-                        <div class="mt-4">
-                            <textarea name id cols="68" rows="8"
-                                class="inpu border w-100"
-                                style="background-color: #1E293B; color: #9CA3AF;">Message*</textarea>
-                        </div>
-                        <div class="mt-4">
-                            <button
-                                class="btn btn-outline-success w-100  submit">Submit</button>
-                        </div>
-                        <div class="mt-4">
-                            <span class="text-white" style="font-size: 15px;">This
-                                site is protected by CAPTCHA and the Google
-                                <span style="color: #22C55E; cursor: pointer;">
-                                    Privacy Policy</span> and <span
-                                    style="color: #22C55E; cursor: pointer;">Terms
-                                    of Service</span> apply.</span>
+                        <div>
+                            <h5 style="color: #939AA7;">+92 305 5535384</h5>
                         </div>
                     </div>
-                    <div
-                        class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 px-5">
-                        <div class="mt-4">
-                            <h5 class="fw-bold text-white">Better yet, see us in
-                                person!</h5>
+                    <div class="d-flex gap-4 mt-2">
+                        <div>
+                            <h5 class="fw-bold" style="color: #939AA7;">Email:</h5>
                         </div>
-                        <div class="d-flex gap-2 mt-5">
-                            <div
-                                class="d-flex align-items-center justify-content-center"><img
-                                    src="./img/location.png" alt height="35px"
-                                    width="35px"></div>
-                            <div>
-                                <div><h5 class="text-white">House No.1562 Sector
-                                        E-11 DHA</h5></div>
-                                <div><h5 class="text-white">Phase 6, Lahore</h5></div>
-                            </div>
-                        </div>
-
-                        <div class="d-flex gap-2 mt-5">
-                            <div
-                                class="d-flex align-items-center justify-content-center"><img
-                                    src="./img/telephone.png" alt height="35px"
-                                    width="35px"></div>
-                            <div>
-                                <div><h5 class="text-white">Phone: +92 000 000
-                                        000</h5></div>
-                                <div><h5 class="text-white">Whatsaap No:
-                                        00000000000</h5></div>
-                            </div>
-                        </div>
-
-                        <div class="d-flex gap-2 mt-5 align-items-center">
-                            <div><img src="./img/mail.png" alt height="35px"
-                                    width="35px"></div>
-                            <div><h5 class="text-white mb-0">Email:
-                                    abc@gmail.com</h5></div>
+                        <div>
+                            <h5 style="color: #939AA7;">mrmalikshafaullahh@gmail.com</h5>
                         </div>
                     </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- End of contact -->
-
-        <!-- start of footer -->
-
-        <section id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <span class="text-white fs-5">Designed and Developed by Syed
-                            Umar Shah</spanspa>
-                    </div>
-                    <div class="col-4 text-end">
-                        <span class="text-white fs-5">Copyright © 2023 SZ</span>
-                    </div>
-                    <div class="col-4">
-                        <div class="d-flex gap-4 justify-content-end">
-                            <div><img src="./img/github.png" alt="" height="30px" width="30px"></div>
-                            <div><img src="./img/linkedin.png" alt="" height="30px" width="30px"></div>
-                            <div><img src="./img/facebook.png" alt="" height="30px" width="30px"></div>
-                            <div><img src="./img/twitter.png" alt="" height="30px" width="30px"></div>
-                            <div><img src="./img/instagram.png" alt="" height="30px" width="30px"></div>
+                    <div class="d-flex gap-4 mt-2">
+                        <div>
+                            <h5 class="fw-bold" style="color: #939AA7;">From:</h5>
                         </div>
+                        <div>
+                            <h5 style="color: #939AA7;">Pakistan</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-4 mt-2">
+                        <div>
+                            <h5 class="fw-bold" style="color: #939AA7;">Language:</h5>
+                        </div>
+                        <div>
+                            <h5 style="color: #939AA7;">Urdu, English</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-4 mt-2">
+                        <div>
+                            <h5 class="fw-bold" style="color: #939AA7;">Freelancer:</h5>
+                        </div>
+                        <div>
+                            <h5 style="color: #939AA7;">Availble</h5>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <button class="btn text-black fw-bold"
+                            style="border-radius: 50px; padding: 10px 15px; background-color: #22C55E; color: #112A46;"><a
+                                href="#" style="text-decoration: none;  color: #112A46;">Download
+                                CV</a></button>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- end of footer -->
+        </div>
+    </section>
 
-        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-        <script>
+    <!-- End Of About -->
+
+    <!-- Start Of Services -->
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white fw-bold fs-1"
+                        style="border-bottom: 2px solid #22C55E; display: inline-block;">Services
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div data-aos="fade-up" class="col-sm-12 col-lg-6 col-xl-4 text-white mt-4">
+                    <div class="card rounded-0 p-4 clr-1" style="background-color: #1E293B; border: 1px solid white;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
+                                class="d-flex justify-content-center align-items-center">
+                                <img src="./img/www.png" alt height="60px" width="60px">
+                            </div>
+                            <h4 class="card-title text-center text-white mt-3" style="font-size: 20px;">Web Development
+                            </h4>
+                            <p class="card-text text-center mt-4 clr-2" style="color: #9CA3AF;">I specialize in
+                                creating responsive and user-friendly web
+                                applications using technologies such as
+                                HTML, CSS, JavaScript, React, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-sm-12 col-lg-6  col-xl-4  text-white mt-4">
+                    <div class="card rounded-0 p-4 clr-1" style="background-color: #1E293B; border: 1px solid white;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
+                                class="d-flex justify-content-center align-items-center">
+                                <img src="./img/smartphone.png" alt height="60px" width="60px">
+                            </div>
+                            <h4 class="card-title text-center text-white mt-3" style="font-size: 20px;">Web Development
+                            </h4>
+                            <p class="card-text text-center mt-4 clr-2" style="color: #9CA3AF;">I specialize in
+                                creating responsive and user-friendly web
+                                applications using technologies such as
+                                HTML, CSS, JavaScript, React, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-sm-12 col-lg-6  col-xl-4  text-white mt-4">
+                    <div class="card rounded-0 p-4 clr-1" style="background-color: #1E293B; border: 1px solid white;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
+                                class="d-flex justify-content-center align-items-center">
+                                <img src="./img/user-experience.png" alt height="60px" width="60px">
+                            </div>
+                            <h4 class="card-title text-center text-white mt-3" style="font-size: 20px;">Web Development
+                            </h4>
+                            <p class="card-text text-center mt-4 clr-2" style="color: #9CA3AF;">I specialize in
+                                creating responsive and user-friendly web
+                                applications using technologies such as
+                                HTML, CSS, JavaScript, React, and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div data-aos="fade-up" class="col-sm-12 col-lg-6  col-xl-4  text-white mt-4">
+                    <div class="card rounded-0 p-4 clr-1" style="background-color: #1E293B; border: 1px solid white;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
+                                class="d-flex justify-content-center align-items-center">
+                                <img src="./img/smart-tv.png" alt height="60px" width="60px">
+                            </div>
+                            <h4 class="card-title text-center text-white mt-3" style="font-size: 20px;">Web Development
+                            </h4>
+                            <p class="card-text text-center mt-4 clr-2" style="color: #9CA3AF;">I specialize in
+                                creating responsive and user-friendly web
+                                applications using technologies such as
+                                HTML, CSS, JavaScript, React, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-sm-12 col-lg-6  col-xl-4  text-white mt-4">
+                    <div class="card rounded-0 p-4 clr-1" style="background-color: #1E293B; border: 1px solid white;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
+                                class="d-flex justify-content-center align-items-center">
+                                <img src="./img/atom.png" alt height="60px" width="60px">
+                            </div>
+                            <h4 class="card-title text-center text-white mt-3" style="font-size: 20px;">Web Development
+                            </h4>
+                            <p class="card-text text-center mt-4 clr-2" style="color: #9CA3AF;">I specialize in
+                                creating responsive and user-friendly web
+                                applications using technologies such as
+                                HTML, CSS, JavaScript, React, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-sm-12 col-lg-6  col-xl-4     text-white mt-4">
+                    <div class="card rounded-0 p-4 clr-1" style="background-color: #1E293B; border: 1px solid white;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div style="height: 100px; width: 100px; border-radius: 50%; background-color: #22C55E;"
+                                class="d-flex justify-content-center align-items-center">
+                                <img src="./img/programing.png" alt height="60px" width="60px">
+                            </div>
+                            <h4 class="card-title text-center text-white mt-3" style="font-size: 20px;">Web Development
+                            </h4>
+                            <p class="card-text text-center mt-4 clr-2" style="color: #9CA3AF;">I specialize in
+                                creating responsive and user-friendly web
+                                applications using technologies such as
+                                HTML, CSS, JavaScript, React, and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Of Services -->
+
+    <!-- Start of skills -->
+
+    <section id="skills ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white fw-bold " style="border-bottom: 2px solid #22C55E; display: inline-block;">
+                        Skills
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div data-aos="fade-right" class="col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 text-center">
+                    <img src="./img/prr.avif" alt class="img-fluid mt-4 mt-sm-5">
+                </div>
+                <div data-aos="fade-up" class="col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 ps-5 pt-5 mt-4 mt-sm-0">
+                    <div style="width: 100%; height: 660px; border-left: 5px solid #22C55E;" class="text-center">
+
+
+                        <div class="d-flex gap-3 align-items-center">
+                            <div style="margin-left: -32px; margin-top: 40px;">
+                                <span class="text-white text-center"
+                                    style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
+                            </div>
+                            <div class="w-100">
+                                <div class="d-flex justify-content-start">
+                                    <h3 class="text-white ">HTML</h3>
+                                </div>
+                                <div class="">
+                                    <div class="progress mt-0" style="width: 70%;" role="progressbar"
+                                        aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 80% ; background-color: #22C55E;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="d-flex gap-3 align-items-center mt-5">
+                            <div style="margin-left: -32px; margin-top: 40px;">
+                                <span class="text-white text-center"
+                                    style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
+                            </div>
+                            <div class="w-100">
+                                <div class="d-flex justify-content-start">
+                                    <h3 class="text-white ">CSS</h3>
+                                </div>
+                                <div class="">
+                                    <div class="progress mt-0" style="width: 70%;" role="progressbar"
+                                        aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 80% ; background-color: #22C55E;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 align-items-center mt-5">
+                            <div style="margin-left: -32px; margin-top: 40px;">
+                                <span class="text-white text-center"
+                                    style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
+                            </div>
+                            <div class="w-100">
+                                <div class="d-flex justify-content-start">
+                                    <h3 class="text-white ">Bootstarp</h3>
+                                </div>
+                                <div class="">
+                                    <div class="progress mt-0" style="width: 70%;" role="progressbar"
+                                        aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 80% ; background-color: #22C55E;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex gap-3 align-items-center mt-5">
+                            <div style="margin-left: -32px; margin-top: 40px;">
+                                <span class="text-white text-center"
+                                    style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
+                            </div>
+                            <div class="w-100">
+                                <div class="d-flex justify-content-start">
+                                    <h3 class="text-white ">JavaScript</h3>
+                                </div>
+                                <div class="">
+                                    <div class="progress mt-0" style="width: 70%;" role="progressbar"
+                                        aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 80% ; background-color: #22C55E;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="d-flex gap-3 align-items-center mt-5">
+                            <div style="margin-left: -32px; margin-top: 40px;">
+                                <span class="text-white text-center"
+                                    style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
+                            </div>
+                            <div class="w-100">
+                                <div class="d-flex justify-content-start">
+                                    <h3 class="text-white ">React js</h3>
+                                </div>
+                                <div class="">
+                                    <div class="progress mt-0" style="width: 70%;" role="progressbar"
+                                        aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 80% ; background-color: #22C55E;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="d-flex gap-3 align-items-center mt-5">
+                            <div style="margin-left: -32px; margin-top: 40px;">
+                                <span class="text-white text-center"
+                                    style="border: 4px solid white; padding: 5px 10px; border-radius: 20px; background-color: #1E293B;">80%</span>
+                            </div>
+                            <div class="w-100">
+                                <div class="d-flex justify-content-start">
+                                    <h3 class="text-white ">Node js</h3>
+                                </div>
+                                <div class="">
+                                    <div class="progress mt-0" style="width: 70%;" role="progressbar"
+                                        aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 80% ; background-color: #22C55E;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- End of skills -->
+
+    <!-- start of portfolio -->
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white fw-bold " style="border-bottom: 2px solid #22C55E; display: inline-block;">
+                        PortFolio
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div data-aos="fade-up" class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 text-white mb-3">
+                    <div class="border p-3">
+                        <div>
+                            <iframe class="vid" src="https://www.youtube.com/embed/daJSVmO2RVA?si=aN184nYhVdv9F4Ts"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="mt-3">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Voluptates
+                            nesciunt a quia qui eos sint minus debitis
+                            quidem accusamus voluptatibus error eaque, unde
+                            mollitia eligendi odit tempora, et quaerat?
+                            Eveniet sint corporis soluta maxime
+                            reprehenderit adipisci alias fugiat est
+                            dignissimos doloremque? Alias nostrum
+                            accusantium iste eveniet quas libero doloremque
+                            modi reiciendis tempora optio placeat ipsum
+                            minima quam, voluptate odit cupiditate repellat
+                            porro, architecto est recusandae, deleniti sint
+                            atque! Quod aliquid iusto soluta animi, quasi
+                            reprehenderit explicabo tempore. Dolores illo
+                            aperiam, adipisci omnis a quod voluptatum
+                            dolorum maxime iusto vitae sed ipsa pariatur
+                            velit sunt sit ullam cupiditate deleniti unde
+                            facere eos reprehenderit eius nobis ab?
+                            Molestiae commodi ex porro laborum ipsa. Ipsa
+                            dolorem libero quaerat a, nesciunt porro dolores
+                            adipisci.</div>
+                        <div class="mt-3 py-3 d-flex gap-3 justify-content-center">
+                            <button class="btn btn-success fw-bold pf-btn-hov"
+                                style="background-color: #22C55E !important; color: black;">Github</button>
+                            <button class="btn btn-success fw-bold  pf-btn-hov"
+                                style="background-color: #22C55E !important; color: black;">Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 text-white">
+                    <div class="border p-3">
+                        <div>
+                            <iframe class="vid" src="https://www.youtube.com/embed/daJSVmO2RVA?si=aN184nYhVdv9F4Ts"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="mt-3">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Voluptates
+                            nesciunt a quia qui eos sint minus debitis
+                            quidem accusamus voluptatibus error eaque, unde
+                            mollitia eligendi odit tempora, et quaerat?
+                            Eveniet sint corporis soluta maxime
+                            reprehenderit adipisci alias fugiat est
+                            dignissimos doloremque? Alias nostrum
+                            accusantium iste eveniet quas libero doloremque
+                            modi reiciendis tempora optio placeat ipsum
+                            minima quam, voluptate odit cupiditate repellat
+                            porro, architecto est recusandae, deleniti sint
+                            atque! Quod aliquid iusto soluta animi, quasi
+                            reprehenderit explicabo tempore. Dolores illo
+                            aperiam, adipisci omnis a quod voluptatum
+                            dolorum maxime iusto vitae sed ipsa pariatur
+                            velit sunt sit ullam cupiditate deleniti unde
+                            facere eos reprehenderit eius nobis ab?
+                            Molestiae commodi ex porro laborum ipsa. Ipsa
+                            dolorem libero quaerat a, nesciunt porro dolores
+                            adipisci.</div>
+                        <div class="mt-3 py-3 d-flex gap-3 justify-content-center">
+                            <button class="btn btn-success fw-bold  pf-btn-hov"
+                                style="background-color: #22C55E !important; color: black;">Github</button>
+                            <button class="btn btn-success fw-bold  pf-btn-hov"
+                                style="background-color: #22C55E !important; color: black;">Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div data-aos="fade-up" class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 text-white mb-3">
+                    <div class="border p-3">
+                        <div>
+                            <iframe class="vid" src="https://www.youtube.com/embed/daJSVmO2RVA?si=aN184nYhVdv9F4Ts"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="mt-3">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Voluptates
+                            nesciunt a quia qui eos sint minus debitis
+                            quidem accusamus voluptatibus error eaque, unde
+                            mollitia eligendi odit tempora, et quaerat?
+                            Eveniet sint corporis soluta maxime
+                            reprehenderit adipisci alias fugiat est
+                            dignissimos doloremque? Alias nostrum
+                            accusantium iste eveniet quas libero doloremque
+                            modi reiciendis tempora optio placeat ipsum
+                            minima quam, voluptate odit cupiditate repellat
+                            porro, architecto est recusandae, deleniti sint
+                            atque! Quod aliquid iusto soluta animi, quasi
+                            reprehenderit explicabo tempore. Dolores illo
+                            aperiam, adipisci omnis a quod voluptatum
+                            dolorum maxime iusto vitae sed ipsa pariatur
+                            velit sunt sit ullam cupiditate deleniti unde
+                            facere eos reprehenderit eius nobis ab?
+                            Molestiae commodi ex porro laborum ipsa. Ipsa
+                            dolorem libero quaerat a, nesciunt porro dolores
+                            adipisci.</div>
+                        <div class="mt-3 py-3 d-flex gap-3 justify-content-center">
+                            <button class="btn btn-success fw-bold  pf-btn-hov "
+                                style="background-color: #22C55E !important; color: black;">Github</button>
+                            <button class="btn btn-success fw-bold  pf-btn-hov"
+                                style="background-color: #22C55E !important; color: black;">Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 text-white">
+                    <div class="border p-3">
+                        <div>
+                            <iframe class="vid" src="https://www.youtube.com/embed/daJSVmO2RVA?si=aN184nYhVdv9F4Ts"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="mt-3">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Voluptates
+                            nesciunt a quia qui eos sint minus debitis
+                            quidem accusamus voluptatibus error eaque, unde
+                            mollitia eligendi odit tempora, et quaerat?
+                            Eveniet sint corporis soluta maxime
+                            reprehenderit adipisci alias fugiat est
+                            dignissimos doloremque? Alias nostrum
+                            accusantium iste eveniet quas libero doloremque
+                            modi reiciendis tempora optio placeat ipsum
+                            minima quam, voluptate odit cupiditate repellat
+                            porro, architecto est recusandae, deleniti sint
+                            atque! Quod aliquid iusto soluta animi, quasi
+                            reprehenderit explicabo tempore. Dolores illo
+                            aperiam, adipisci omnis a quod voluptatum
+                            dolorum maxime iusto vitae sed ipsa pariatur
+                            velit sunt sit ullam cupiditate deleniti unde
+                            facere eos reprehenderit eius nobis ab?
+                            Molestiae commodi ex porro laborum ipsa. Ipsa
+                            dolorem libero quaerat a, nesciunt porro dolores
+                            adipisci.</div>
+                        <div class="mt-3 py-3 d-flex gap-3 justify-content-center">
+                            <button class="btn btn-success fw-bold pf-btn-hov"
+                                style="background-color: #22C55E !important; color: black;">Github</button>
+                            <button class="btn btn-success fw-bold pf-btn-hov"
+                                style="background-color: #22C55E !important; color: black;">Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- End of portfolio -->
+
+    <!-- start of contact -->
+
+    <section id="contect">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <h2 class="text-white fw-lighter " style="border-bottom: 2px solid #fff;">CONTACT US
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div>
+                        <div>
+                            <h5 class="text-white mt-4">Fill out the
+                                contact form and shahzad will contact you
+                                directly.</h5>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <input class="w-100 border inpu" style="background-color: #1E293B;" type="text"
+                            placeholder="NAME*">
+                    </div>
+                    <div class="mt-4">
+                        <input class="w-100 border inpu" style="background-color: #1E293B;" type="email"
+                            placeholder="EMAIL*">
+                    </div>
+                    <div class="mt-4">
+                        <textarea name id cols="68" rows="8" class="inpu border w-100"
+                            style="background-color: #1E293B; color: #9CA3AF;">Message*</textarea>
+                    </div>
+                    <div class="mt-4">
+                        <button class="btn btn-outline-success w-100  submit">Submit</button>
+                    </div>
+                    <div class="mt-4">
+                        <span class="text-white" style="font-size: 15px;">This
+                            site is protected by CAPTCHA and the Google
+                            <span style="color: #22C55E; cursor: pointer;">
+                                Privacy Policy</span> and <span style="color: #22C55E; cursor: pointer;">Terms
+                                of Service</span> apply.</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 px-5">
+                    <div class="mt-4">
+                        <h5 class="fw-bold text-white">Better yet, see us in
+                            person!</h5>
+                    </div>
+                    <div class="d-flex gap-2 mt-5">
+                        <div class="d-flex align-items-center justify-content-center"><img src="./img/location.png" alt
+                                height="35px" width="35px"></div>
+                        <div>
+                            <div>
+                                <h5 class="text-white">House No.1562 Sector
+                                    E-11 DHA</h5>
+                            </div>
+                            <div>
+                                <h5 class="text-white">Phase 6, Lahore</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-5">
+                        <div class="d-flex align-items-center justify-content-center"><img src="./img/telephone.png" alt
+                                height="35px" width="35px"></div>
+                        <div>
+                            <div>
+                                <h5 class="text-white">Phone: +92 000 000
+                                    000</h5>
+                            </div>
+                            <div>
+                                <h5 class="text-white">Whatsaap No:
+                                    00000000000</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-5 align-items-center">
+                        <div><img src="./img/mail.png" alt height="35px" width="35px"></div>
+                        <div>
+                            <h5 class="text-white mb-0">Email:
+                                abc@gmail.com</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- End of contact -->
+
+    <!-- start of footer -->
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <span class="text-white fs-5">Designed and Developed by Syed
+                        Umar Shah</spanspa>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-xl-4 col-xxl-4 text-end mb-4">
+                    <span class="text-white fs-5">Copyright © 2023 SZ</span>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="d-flex gap-4 justify-content-end">
+                        <div><img src="./img/github.png" alt="" height="30px" width="30px" style="cursor: pointer;">
+                        </div>
+                        <div><img src="./img/linkedin.png" alt="" height="30px" width="30px" style="cursor: pointer;">
+                        </div>
+                        <div><img src="./img/facebook.png" alt="" height="30px" width="30px" style="cursor: pointer;">
+                        </div>
+                        <div><img src="./img/twitter.png" alt="" height="30px" width="30px" style="cursor: pointer;">
+                        </div>
+                        <div><img src="./img/instagram.png" alt="" height="30px" width="30px" style="cursor: pointer;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of footer -->
+
+    <script src="./index.js"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
         new Typewriter('#typewriter', {
             strings: ["NEXT JS DEVELOPER", "WEB DEVELOPMENT", "AMAZING WEBSITE ?"],
             autoStart: true,
             loop: true
         });
     </script>
-        <script>
-        new Typewriter('#typewriter1', {
-            strings: ["NEXT JS DEVELOPER ?", "WEB DEVELOPMENT ?", "AMAZING WEBSITE ?"],
-            autoStart: true,
-            loop: true
-        });
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-    </body>
+</body>
 
 </html>
